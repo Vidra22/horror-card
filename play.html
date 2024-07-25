@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="rig.png" type="image/x-icon">
+    <title>Вгадай карту</title>
+    <link rel="stylesheet" href="play.css">
+</head>
+<body>
+    <a href="main.html" class="back"><span class="material-symbols-outlined">
+        arrow_back
+        </span></a>
+        <button id="fullscreenBtn"><span class="material-symbols-outlined">
+            fullscreen
+            </span></button>
+    <div class="game-container">
+        <h1>Вгадай карту</h1>
+        <div class="cards-container">
+            <div class="card" onclick="checkCard(this)">Card 1</div>
+            <div class="card" onclick="checkCard(this)">Card 2</div>
+            <div class="card" onclick="checkCard(this)">Card 3</div>
+            <div class="card" onclick="checkCard(this)">Card 4</div>
+            <div class="card" onclick="checkCard(this)">Card 5</div>
+            <div class="card" onclick="checkCard(this)">Card 6</div>
+            <div class="card" onclick="checkCard(this)">Card 7</div>
+        </div>
+        <img id="wrong-image" src="images.jpg" alt="Wrong Choice" class="hidden">
+        <a href="play.html" class="refresh"><span class="material-symbols-outlined">
+            refresh
+            </span></a>
+    </div>
+    <script src="fullscreen.js"></script>
+    <script src="play.js"></script>
+</body>
+</html>

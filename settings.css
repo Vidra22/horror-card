@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(no-signal.avif);
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 60%;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.name{
+    text-align: center;
+    gap: 20px;
+}
+
+.labels{
+    margin-top: 20px;
+}
+
+.cont hr{
+    width:100%;
+}
+
+.back span{
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    background-color: black;
+}
+

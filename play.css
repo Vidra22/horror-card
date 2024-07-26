@@ -65,3 +65,18 @@ h1 {
     text-decoration: none;
     color: white;
 }
+
+#hint-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Оранжевий колір кнопки */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#hint-button:disabled {
+    background-color: #cccccc; /* Сірий колір для неактивної кнопки */
+    cursor: not-allowed;
+}

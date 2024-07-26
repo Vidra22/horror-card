@@ -41,3 +41,17 @@ body{
     background-color: black;
 }
 
+.save{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-image: linear-gradient(green , darkgreen , forestgreen);
+    border: none;
+    outline: none;
+    height: 10%;
+    width: 10%;
+    font-size: 25px;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
